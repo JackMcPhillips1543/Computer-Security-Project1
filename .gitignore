@@ -1,0 +1,30 @@
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.log
+
+# Build results
+*.o
+*.d
+
+# Executable files (depending on your platform)
+a.out
+*.exe
+*.bin
+*.so
+*.dylib
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+*.cmake
+!CMakeLists.txt
+
+# CMake build directory
+cmake-build-debug/
+
+# VScode
+*.vscode/
